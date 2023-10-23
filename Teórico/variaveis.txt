@@ -1,0 +1,34 @@
+
+* O que são Variáveis?
+
+- São espaços em memória que nos possibilitam armazenar informações de modo temporário, funcionam como repositórios
+
+
+* Tipos de Variáveis
+
+- String: Armazenam textos ;
+- Number: Armazenam valores numéricos ;
+- Boolean: Armazenam valores True or False.
+
+
+* Regras para declarar Variáveis
+
+- Não podem começar com números, só letras ou "_" ;
+- Não podem conter caracteres especiais como "ç, "^, "~", "´" ;
+- Não podem ser iguais as palavras reservadas da linguagem.
+
+
+* Declação de variáveis
+
+    Instrução "var"
+
+- Não é obrigatório utilizar essa instrução mas, é importante para deixar explícito ao JavaScript ou servidor que aquilo é uma variável.
+
+    Case Sensitive
+
+- var curso, var Curso e var CURSO são consideradas difierentes ;
+- É indicado que utilize sempre palavras-chave em minúsculo e sem caracteres especiais.
+
+    Valores
+
+- O JavaScript já entende automaticamente qual é o tipo de variável de acordo com o valor que você atribui a ela.

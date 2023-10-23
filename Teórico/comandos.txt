@@ -1,0 +1,16 @@
+
+* var nomevariavel
+- Para deixar explicito para melhor leitura de código que isso é uma declaração de variavel.
+
+* alert(variavel)
+- Abrir um dialog, dispara uma caixa de mensagem ;
+- Utilizado mais em debug, não muito em produção.
+
+* document.write(variavel)
+- Representa o DOM ;
+- Mostra o texto no browser como se fosse construído no body.
+
+* console.log()
+- Muito usado em debugs ; 
+- Para acompanhar o processo de uma execução de script ;
+- Expõe os dados sa variaveis ;
