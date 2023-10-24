@@ -2,23 +2,28 @@
 * var nomevariavel
 - Para deixar explicito para melhor leitura de código que isso é uma declaração de variavel.
 
+
 * alert(variavel)
 - Abrir um dialog, dispara uma caixa de mensagem ;
 - Utilizado mais em debug, não muito em produção.
 
+
 * document.write(variavel)
 - Representa o DOM ;
-- Mostra o texto no browser como se fosse construído no body.
+- Mostra a execução diretamente no browser.
+
 
 * console.log()
 - Muito usado em debugs ; 
 - Para acompanhar o processo de uma execução de script ;
-- Expõe os dados sa variaveis ;
+- Expõe os dados das variaveis no console do browser
+
 
 * prompt()
 - Abre um dialog mas com entrada para texto ;
 - ex:
 var nome = prompt('Digite seu nome:')
+
 
 * IF / ELSE
 if (condição) {
@@ -28,7 +33,7 @@ if (condição) {
     - código que será executado
 }
 
-            -------------
+                OU                  
 
 if (condição) {
     - código que será executado
@@ -40,3 +45,10 @@ if (condição) {
     - código que será executado
 }
 
+
+*parseInt(variável)
+- Torna uma variável tipo Number Int
+
+
+*parseFloat
+- Torna uma variável tipo Number Float

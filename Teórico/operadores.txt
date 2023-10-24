@@ -1,4 +1,6 @@
 
+COMPARAÇÃO
+
 Igual (==)
 - Verifica se os valores comparados são IGUAIS.
 
@@ -22,3 +24,22 @@ Menor Igual (<=)
 
 Maior Igual (>=)
 - Verifica se o valor da esquerda é MAIOR OU IGUAL que o da direita.
+
+
+LÓGICOS
+
+E (&&)
+- Vedadeiro se todas as espressões forem verdadeiras
+
+OU (||)
+- Verdadeiro se pelo menos uma das espressões for verdadeira
+
+Negação (!)
+- Inverte o resultado da expressão de comparação
+
+
+TERNÁRIO
+
+var teste = <condição> ? <verdadeiro> : <falso>
+- Serve como if else
+* exemplo no oplog.html

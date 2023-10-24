@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Lógicos</title>
+
+    <script>
+
+        //   E (&&)
+        /*
+            if (2 == 2 && 3 >= 1) {
+                 document.write('Verdadeiro')
+             }
+         
+             else {
+                 document.write('Falso')
+             }
+         
+               OU (||)
+             if (2 == 1 || 3 >= 4) {
+                 document.write('Verdadeiro')
+             }
+         
+             else {
+                 document.write('Falso')
+             }
+         
+               Negação (!)
+             if (!(4 == 2)) {
+                 document.write('Verdadeiro')
+             }
+         
+             else {
+                 document.write('Falso')
+             }
+        */
+
+        //  exercícios
+
+        //lógica
+        var media = 6
+        var faltas_max = 15
+
+        var nota = prompt('Digite a nota do(a) aluno(a)')
+        var faltas = prompt('Digite as faltas do(a) aluno(a)')
+
+        /*
+            if (nota >= media && faltas <= faltas_max) {
+                document.write('Você foi APROVADO(A)')
+            } 
+
+            else {
+                document.write('Você foi REPROVADO(A)')
+            }
+        */
+
+        //ternário
+        var resultado = (nota >= media && faltas <= faltas_max) ? 'Você foi APROVADO(A)' : 'Você foi REPROVADO(A)'
+
+        document.write(resultado)
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
