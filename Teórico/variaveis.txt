@@ -6,10 +6,12 @@
 
 * Tipos de Variáveis
 
-- String: Armazenam textos ;
-- Number: Armazenam valores numéricos ;
+- String: Armazenam textos.
+- Number: Armazenam valores numéricos. 
 - Boolean: Armazenam valores True or False.
-
+- NULL: Indica a ausência intencional do valor.
+- Undefined: Indica que a variável está indefinida;
+             Pode ser somente declarada sem um valor atribuído.
 
 * Regras para declarar Variáveis
 

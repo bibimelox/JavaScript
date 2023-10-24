@@ -14,3 +14,29 @@
 - Muito usado em debugs ; 
 - Para acompanhar o processo de uma execução de script ;
 - Expõe os dados sa variaveis ;
+
+* prompt()
+- Abre um dialog mas com entrada para texto ;
+- ex:
+var nome = prompt('Digite seu nome:')
+
+* IF / ELSE
+if (condição) {
+    - código que será executado
+
+} else {
+    - código que será executado
+}
+
+            -------------
+
+if (condição) {
+    - código que será executado
+
+} else if {
+    - código que será executado
+
+} else {
+    - código que será executado
+}
+
