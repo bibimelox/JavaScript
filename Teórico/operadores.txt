@@ -29,17 +29,43 @@ Maior Igual (>=)
 LÓGICOS
 
 E (&&)
-- Vedadeiro se todas as espressões forem verdadeiras
+- Vedadeiro se todas as espressões forem verdadeiras.
 
 OU (||)
-- Verdadeiro se pelo menos uma das espressões for verdadeira
+- Verdadeiro se pelo menos uma das espressões for verdadeira.
 
 Negação (!)
-- Inverte o resultado da expressão de comparação
+- Inverte o resultado da expressão de comparação.
 
 
 TERNÁRIO
 
 var teste = <condição> ? <verdadeiro> : <falso>
-- Serve como if else
+- Serve como if else.
 * exemplo no oplog.html
+
+
+ARITMÉTICOS
+
+Adição (+)
+- Soma os valores.
+
+Subtração (-)
+- Diferença entre os valores.
+
+Multiplicação (*)
+- Produto dos valores
+
+Divisão (/)
+- Quociente dos valores.
+
+Módulo (%)
+- Resto existente em uma operação de divisão.
+
+Incremento (++)
+- Quando adiciona 1 ao valor;
+- Substitui 'valor + 1 = x'.
+
+Decremento (--)
+- Quando subtrai 1 do valor;
+- Substitui 'valor - 1 = x'.
