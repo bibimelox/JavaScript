@@ -1,0 +1,10 @@
+
+GLOBAL
+- Declaração de variáveis.
+
+FUNÇÃO
+- Comandos, exemplo: if, function etc.
+
+BLOCO
+- Eu entendi que é um tipo de bloco que tenha acesso ao escopo global, exemplo:
+document.write, console.log etc
