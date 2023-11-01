@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika:wght@500&display=swap');
+
+:root {
+
+    --marrom: #8B5A2B;
+    --marromzin: #ffe3c8;
+    --marromzao: #471e0b;
+
+    --pattern-font: Arial, Verdana, Helvetica, sans-serif;
+    --master-font: 'Open Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--marrom);
+    color: white;
+    max-width: 100%;
+    margin: 0 auto;
+    padding:3.5%;
+}
+
+/* ESTILO HEADER */
+
+header .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--master-font);
+}
+
+.logo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.logo h1 {
+    font-weight: 200;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ESTILO MAIN */
+
+main {
+display: flex;
+margin-top: 90px;
+}
+
+.forms {
+    cursor: context-menu;
+}
+
+.forms h1 {
+    font-family: var(--pattern-font);
+    font-size: 2.5em;
+}
+
+.forms h1 span{
+    font-size: 1em;
+    color: var(--marromzao);
+    font-weight: bolder;
+}
+
+.forms p {
+    font-family: var(--pattern-font);
+    letter-spacing: 1px;
+}
+
+form .enviar {
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+
+DATAS
+
+var data = new Date()
+
+- Retorna a data atual:
+    document.write(data.getDate() +'/'+ (data.getMonth() +1) +'/'+ data.getFullYear())
+
+- Adiciona ou remove dias:
+    document.write(data.toString())
+    data.setDate(data.getDate() +1)
+    document.write('<hr />')
+    document.write(data.toString())
+
+- Adiciona ou remove meses:
+    document.write(data.toString())
+    data.setMonth(data.getMonth() +1)
+    document.write('<hr />')
+    document.write(data.toString())
+
+- Adiciona ou remove anos:
+    document.write(data.toString())
+    data.setFullYear(data.getFullYear() +1)
+    document.write('<hr />')
+    document.write(data.toString())
+
+
+MATEMÁTICAS
+
+- Arredonda para maior:
+    var x = Math.ceil(10.380)
+
+- Arredonda para menor:
+    var x = Math.floor(10.380)
+
+- Arredonda dependendo da média da fração:
+    var x = Math.round(10.580)
+
+- Retorna um valor aleatório entre 0 e 1:
+    var x = Math.random()
+
+
+STRINGS
+
+- Conta a quantidade de caracteres:
+document.write('Bianca de Melo Caetano'.length)
+
+- Retorna o caracter de acordo com o número informado:
+document.write('Bianca de MelCaetano'.charAt(0))
+
+- Retorna o número de acordo com o caracter informado:
+document.write(nome.indexOf('B'))
+
+- Troca o caracter 1 pelo 2:
+document.write(nome.replace('Melo','Caetano'))
+
+- Retorna apartir do número até o outro que vc informou:
+document.write(nome.substr(0, 6))
+
+- Transforma tudo em minúsculo:
+document.write(nome.toLocaleLowerCa())
+
+- Transforma tudo em maiúsculo:
+document.write(nome.toLocaleUpperCa())
+
+- .trim() Tira todos os espações das pontas das strings:
+document.write('-' + nome.trim() + '-')
