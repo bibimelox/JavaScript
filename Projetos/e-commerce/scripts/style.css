@@ -16,20 +16,27 @@
 }
 
 body {
-    background-color: var(--marrom);
-    color: white;
+    background-color: white;
+    color: black;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 2%;
     padding:3.5%;
 }
+
 
 /* ESTILO HEADER */
 
 header .cabecalho{
+    background-color: var(--marrom);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: var(--master-font);
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    min-width: 100%;
 }
 
 .logo {
@@ -49,6 +56,10 @@ a {
     margin: 20px;
 }
 
+.menu a:hover {
+    text-decoration: white;
+}
+
 button {
     cursor: pointer;
 }
@@ -62,6 +73,7 @@ margin-top: 90px;
 
 .forms {
     cursor: context-menu;
+    margin: 0px 10px;
 }
 
 .forms h1 {
@@ -78,8 +90,13 @@ margin-top: 90px;
 .forms p {
     font-family: var(--pattern-font);
     letter-spacing: 1px;
+    max-width: 500px;
 }
 
 form .enviar {
     cursor: pointer;
+}
+
+.fotoform {
+    margin-left: 10%;
 }

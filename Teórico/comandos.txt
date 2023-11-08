@@ -52,3 +52,6 @@ if (condição) {
 
 *parseFloat
 - Torna uma variável tipo Number Float
+
+*Math.ceil
+- antes de um resultado, arredonda o valor
