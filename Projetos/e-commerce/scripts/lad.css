@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: #8B5A2B;
+    color: white;
     max-width: 100%;
     margin: 2%;
     padding:3.5%;
@@ -26,17 +26,20 @@ body {
 
 /* ESTILO HEADER */
 
+header {
+    max-width: 100%;
+    margin: auto;
+}
+
 header .cabecalho{
     background-color: var(--marrom);
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-family: var(--master-font);
+    top: 2%;
+    min-width: 90%;
     position: fixed;
-    top: 0%;
-    right: 0%;
-    min-width: 100%;
 }
 
 .logo {
@@ -57,18 +60,37 @@ a {
 }
 
 .menu a:hover {
-    text-decoration: white;
+    color: #471e0b;
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    font-weight: bolder;
 }
 
-button {
+.cadastrar button {
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: var(--master-font);
+    color: white;
+    background-color: var(--marrom);
+    border: 2px #ffffff solid;
+    border-radius: 50px;
     cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.cadastrar button:hover {
+    transform: scale(1.05);
+    background-color: #471e0b;
+    border: 2px #471e0b solid;
+    /* box-shadow: 0px 0px 2px white; */
 }
 
 /* ESTILO MAIN */
 
 main {
 display: flex;
-margin-top: 90px;
+margin-top: 15%;
+align-items: center;
 }
 
 .forms {
@@ -93,8 +115,37 @@ margin-top: 90px;
     max-width: 500px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 40px;
+    width: 30%;
+    background-color: #471e0b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-family: var(--master-font);
+}
+
+form [type="submit"]:hover{
+    transform: scale(1.05);
+}
+
 form .enviar {
     cursor: pointer;
+}
+
+form input {
+    margin-top: 15px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
 }
 
 .fotoform {
