@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika:wght@500&display=swap');
 
-
 :root {
 
     --marrom: #8B5A2B;
@@ -16,19 +15,121 @@
     --body-font: 'Roboto', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--master-font);
-}
-
 body {
     background-color: #8B5A2B;
     color: white;
+    max-width: 100%;
+    margin: 2%;
+    padding:3.5%;
+}
+
+
+/* ESTILO HEADER */
+
+header {
+    max-width: 100%;
+    margin: auto;
+}
+
+header .cabecalho{
+    background-color: var(--marrom);
+    color: white;
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    justify-content: space-between;
+    font-family: var(--master-font);
+    top: 2%;
+    min-width: 90%;
+    position: fixed;
+}
+
+.logo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.logo h1 {
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.cadastrar button {
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: var(--master-font);
+    color: white;
+    background-color: var(--marrom);
+    border: 2px #ffffff solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.cadastrar button:hover {
+    transform: scale(1.05);
+    background-color: #471e0b;
+    border: 2px #471e0b solid;
+    /* box-shadow: 0px 0px 2px white; */
+}
+
+/* ESTILO MAIN */
+
+main {
+display: flex;
+margin-top: 15%;
+align-items: center;
+}
+
+.forms {
+    cursor: context-menu;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms h1 {
+    font-family: var(--pattern-font);
+    font-size: 2.5em;
+}
+
+.forms h1 span{
+    font-size: 1em;
+    color: var(--marromzao);
+    font-weight: bolder;
+}
+
+.forms p {
+    font-family: var(--pattern-font);
+    letter-spacing: 1px;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form [type="submit"]{
+    height: 40px;
+    width: 30%;
+    background-color: #471e0b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-family: var(--master-font);
+}
+
+form [type="submit"]:hover{
+    transform: scale(1.05);
+}
+
+form .enviar {
+    cursor: pointer;
+}
+
+form input {
+    margin-top: 15px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
 }
